@@ -1,0 +1,48 @@
+.dashboard {
+}
+.right{ 
+ float:right;
+ display: flex;
+}
+.right-buttons{ 
+ float:right;
+ display: flex;
+ margin-right:10px;
+}
+button{
+ font-size: 14px;
+ border: 1px solid #D8DDE6;
+ height: 32px;
+ border-radius: 4px;
+ padding: 8px 15px;
+ margin: 0 10px;
+ cursor: pointer;
+}
+button.white {
+ color: #2B405B;
+ background: #fff;
+}
+button.blue {
+ color: #fff;
+ background: #657FAC;
+}
+button.has-icon{
+ display: flex;
+}
+button img{
+ position: relative;
+ right: 6px;
+}
+.page-title{
+ color: #2B405B;
+ font-size: 22px;
+ float: left;
+ margin: 0;
+ margin-left: 10px;
+}
+.widget-area {
+ clear: both;
+ display: inline-block;
+ width: 100%;
+ margin-top: 10px;
+}

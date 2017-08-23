@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  background-color: #f9f9f9; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.App {
+  text-align: center; }
+
+.Layout {
+  padding: 29px 10px;
+  min-height: 100vh; }
+
+.scss {
+  color: red; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

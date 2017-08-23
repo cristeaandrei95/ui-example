@@ -1,0 +1,35 @@
+.dot {
+ height: 14px;
+ width: 14px;
+ border-radius: 50px;
+ display: table-cell;
+}
+.widget-users{
+ display: inline;
+ float: left;
+ width: 50%;
+}
+.user-name{
+ color: #2B405B;
+ font-size: 14px;
+ margin: 0;
+}
+.user-time {
+ color: #2B405B;
+ font-size: 16px;
+ font-weight: bold;
+ margin-top: 5px;
+ margin-bottom: 15px;
+}
+.dot {
+    height: 14px;
+    width: 14px;
+    border-radius: 50px;
+    display: inline-block;
+    float: left;
+}
+.user-info {
+    float: left;
+ margin-left: 10px;
+}
+

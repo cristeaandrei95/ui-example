@@ -1,0 +1,12 @@
+.widget-dropdown-wrapper {
+  width: 320px;
+  border-radius: 4px;
+  background-color: #414042;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  display: table;
+  font-size: 10px;
+  padding: 7px;
+  position: absolute;
+  left: -40px;
+  top: 10px;
+  z-index: 10; }

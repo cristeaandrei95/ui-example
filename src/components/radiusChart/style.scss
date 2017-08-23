@@ -1,0 +1,67 @@
+circle {
+ fill: transparent;
+ stroke: #655;
+ stroke-width: 10;
+ stroke-dasharray: 534;
+}
+
+.chart {
+ position: relative;
+ display: inline-block;
+ color: #999;
+ font-size: 20px;
+ width: 100%;
+ margin: 0;
+ text-align: center;
+ height: 100%;
+}
+.first{
+
+}
+.second{
+
+}
+.svg {
+ height: 187px;
+ width: 187px;
+}
+.outer {
+  fill: transparent;
+  stroke: #83cd29;
+  stroke-linecap: round;
+  stroke-width: 10;
+  stroke-dasharray: 534;
+  transition: stroke-dashoffset 1s;
+  -webkit-animation-play-state: running;
+  
+  /* firefox bug fix - won't rotate at 90deg angles */
+  -moz-transform: rotate(-89deg) translateX(-190px);
+}
+
+.chart[data-nr='1'] .outer {
+  stroke-dashoffset: 280;
+}
+
+.chart .outer {
+  -webkit-animation: lazyLoad 2s;
+  animation: lazyLoad 2s;
+}
+
+
+@-webkit-keyframes lazyLoad{
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+  }
+}
+
+@keyframes lazyLoad{
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+  }
+}

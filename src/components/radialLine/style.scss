@@ -1,0 +1,39 @@
+circle {
+ fill: transparent;
+ stroke: #655;
+ stroke-width: 10;
+ stroke-dasharray: 534;
+}
+
+.chart {
+  position: relative;
+  display: inline-block;
+  color: #999;
+  font-size: 20px;
+  text-align: center;
+}
+.outer {
+  fill: transparent;
+  stroke: #83cd29;
+  stroke-linecap: round;
+  stroke-width: 10;
+  -moz-transform: rotate(-89deg) translateX(-190px);
+}
+
+@-webkit-keyframes lazyLoad{
+  from {
+    stroke-dashoffset: 0;
+  }
+  
+  to {
+  }
+}
+
+@keyframes lazyLoad{
+  from {
+    stroke-dashoffset: 0;
+  }
+  
+  to {
+  }
+}
